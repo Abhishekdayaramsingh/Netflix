@@ -1,0 +1,604 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./netflix/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 17%;
+    padding-top: 0px;
+}
+header #left img{
+        width: 20%;
+        height: 20%;
+}
+header #right{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+header #right select{
+    background-color: transparent;
+    color: white;
+    padding-left: 27PX;
+    border-radius: 5px;
+}
+.fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 18px;
+}
+header #right #si{
+    background-color: red;
+    color:white ;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top:  8px;
+    border: none;
+    text-decoration: none;
+    padding: 13px;
+    font-weight: 500px;
+}
+#email{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+#email h1{
+    font-size: 3.7rem;
+    margin: 0;
+}
+#email #p1{
+    font-size: 1.5rem;
+    margin: 16px 0px 0px;
+
+}
+#email #p2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    padding: 0;
+}
+#email input {background-color:rgba(0, 0, 0, 0.652);
+    padding:2rem 2rem 0.4rem;
+    width: 25%;
+    border-radius: 5px;
+    padding-bottom: 1.5rem;
+    margin: 0; 
+}
+#email button{
+    background-color: red;
+    color: white;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-left: 0.7rem;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+#enjoy{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 17rem;
+    border-top: 2px solid #232323 ;
+    background-color: black;
+}
+#enjoy div{
+    width: 45%;
+}
+#enjoy #smart h1{
+    font-size: 3rem;
+    font-weight: 900 ;
+} 
+#enjoy #smart p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#enjoy #tv{
+    position: relative;
+}
+#enjoy #tv img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#enjoy #tv video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#watch{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 7rem;
+    padding: 3rem;
+    background-color: black;
+}
+#watch div{
+    width: 45%;
+}
+#watch #smart1 h1{
+    font-size: 3rem;
+    font-weight: 900 ;
+} 
+#watch #smart1 p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#watch #tv1{
+    position: relative;
+}
+#watch #tv1 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#watch #tv1 video{
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    width: 63%;
+    z-index: 1;
+}
+#download{
+    display: flex;
+    color: white;
+    border-top: 2px solid #232323 ;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 3rem;
+    margin: auto;
+}
+#download #mobile{
+    width: 45%;
+    position: relative;
+}
+#download #mobile #ele{
+    width: 100%;
+}
+#download #offline{
+    width: 45%;
+}
+#download #offline h1{
+    font-size: 3rem;
+}
+#download #offline p{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 50%;
+    margin: auto;
+    border-radius: 5%;
+    padding: 0.5rem;
+    position: absolute;
+    height: 20%;
+    bottom: 0;
+    left: 23%;
+    background-color: black;
+}
+#box #strange{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#box #strange img{
+    width: 65%;
+}
+ #box #strange h3{
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 10px;
+}
+#box #strange p{
+    color: #0046dc;
+    margin: auto;
+    margin-top: 0px;
+}
+#box #gif{
+    width: 15%;
+}
+#box #gif img{
+    width: 100%;
+}
+#create{
+    display: flex;
+    color: white;
+}
+#create div{
+    width: 30%;
+    margin: auto;
+    padding: 10px 20px 0px 0px;
+}
+#create #c1{
+    padding-left: 4rem;
+    margin-right: 2rem;
+}
+#create #c2{
+    padding-right: 4rem;
+    margin-left: 2rem;
+}
+#create img{
+    width: 100%;
+}
+#create div h1{
+    font-size: 4rem;
+    margin: 0;
+}
+#create div p{
+    font-size: 1.5rem;
+}
+#faq{
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+#faq h1{
+    text-align: center;
+    font-size: 3rem;
+}
+#faq ul{
+    list-style-type: none;
+}
+#faq ul li .span1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #2d2d2d;
+}
+#faq ul li{
+    margin-bottom: 0.5rem;
+}
+#faq ul li #div1,#div2,#div3,#div4,#div5,#div6{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+    display: none;
+    background-color: #2d2d2d;
+    position: relative;
+}
+#faq ul li:hover #div1{
+    display: block;
+}
+#faq ul li:hover #div2{
+    display: block;
+}
+#faq ul li:hover #div3{
+    display: block;
+}
+#faq ul li:hover #div4{
+    display: block;
+}
+#faq ul li:hover #div5{
+    display: block;
+}
+#faq ul li:hover #div6{
+    display: block;
+}
+footer{
+    color: white;
+    margin: 30px 0px;
+}
+footer #fot{
+    width: 75%;
+    margin: auto;
+}
+footer #ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0px;
+}
+footer a{
+    color: white;
+}
+select{
+    background-color: transparent;
+    color: white;
+    padding-left: 27PX;
+    border-radius: 5px;
+}
+footer .fa-solid.fa-globe{
+    color: white;
+    position: relative;
+    left: 3%;
+    font-size: 16px;
+}
+
+#faq #div1{
+    display: none;
+}
+
+/* ------mobile----- */
+@media (max-width:600px)
+{body{
+    background-image: url(./image/netflix\ header.jpg);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+    hr{
+        height: 2px;
+        background-color: grey;
+        margin: 0;
+    }
+    header{
+       display: flex;
+       justify-content: space-around;
+       text-align: center;
+    }
+    header #left{
+        margin-top: 0px;
+        margin-right: 150px;
+        width: 100%;
+    }
+    header #left img{
+        height: 120px;
+        width: 100px;
+    }
+     header #right{
+        margin-top: 6px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        position: relative;
+     }
+    header #right select{
+        background-color: rgba(0, 0, 0, 0.507);
+        border: 2px solid white;  
+        padding: 0.3rem 0.4rem 0.7rem 2rem;
+        color: white;
+        border-radius: 5px;
+        height: 2.5rem;
+        width: 2rem;
+    }
+    header #right .fa-solid.fa-globe{
+        color: white;
+        position: absolute;
+        top:20%;
+        left: 4%;
+    }
+    header #right #sign{
+        background-color: red;
+        border: 1px solid white;
+        height: 1.5rem;
+        width: 4rem;
+        color: white;
+        border-radius: 5px;
+    }
+    header #right select #eng,#hindi
+    {background-color: white;}
+    #first h1{
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin: 1rem 0px 0px 0px;
+    }
+    #first p{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin: 10px;
+    }
+    #first input{
+      background-color: rgba(0, 0, 0, 0.404);
+      width: 80%;
+      margin: 0px 2rem;
+
+    }
+    #first button{
+        display: block;
+        width: 45%;
+        margin: 20px 7rem;
+
+    }
+    #enjoy{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    #enjoy div{
+        width: 100%;
+    }
+    #enjoy #smart h1{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        color: white;
+        margin-top: 0px;  
+    }
+    #enjoy #smart p{
+        font-size: 1rem;
+        text-align: center;
+        color: white;
+    }
+    #enjoy #tv {
+        position: relative;
+    }
+    #enjoy #tv img{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        z-index: 2;
+    }
+    #enjoy #tv video{
+        position: absolute;   
+        top: 37px;
+        left: 29px;
+        width: 73%;
+        margin: 10px 10px;
+        z-index: 1;
+    }
+    #download{
+        display: block;
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+    #download #girl #offline{
+        width: 100%;
+    }
+    #download #girl #ele{
+        width: 100%; }
+    #download #girl{
+            position: relative; }
+    #box{
+                display: flex;
+                justify-content: space-between;
+                border: 2px solid rgb(174,152,152);
+                width: 80%;
+                margin: auto;
+                border-radius: 10px;
+                padding: 5px;
+                position: absolute;
+                bottom: 3%;
+                left:10%;
+                background-color: black;
+            }
+            #box #strange{
+                display: flex;
+                width:70%;
+                align-items: center;
+                gap: 1rem;
+            }
+            #box #strange #photo{
+                width: 20%;
+            }
+            #download #offline h1{
+                font-size: 1.5rem;
+                width: 100%;
+                text-align: center;
+                color: white;
+            }
+            #download #offline p{
+                font-size: 1rem;
+                text-align: center;
+                color: white;
+            }
+    #watch{
+    display: block;
+    width:80%;
+    margin: auto;
+    padding: 0;
+    }
+    #watch div{
+        width: 100%;
+    }
+    #watch #every h1{
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #watch #every p{
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+    }
+    #watch #mobie{
+        position: relative;
+   }
+   #watch #mobile img{
+       width: 100%;
+       z-index: 2;
+   }
+   #watch #mobile video{
+       position: absolute;
+       top: 93rem;
+       left: 5.3rem;
+       width: 51%;
+       z-index: 1;
+   }
+   #kids{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 0rem;
+}
+#kids div{
+    width: 100%;
+
+}
+#kids #image img{
+    margin: auto;
+    width: 100%;
+}
+#kids #profile h1{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#kids #profile p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+footer{
+    width: 80%;
+    margin: auto;
+}
+footer #que{
+    margin: 1rem;
+    color: white;
+    font-size: 14px;
+}
+footer #down{
+    margin-top: 12px;
+    font-size: 10px;
+}
+footer #down .fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top:427%;
+    left: 15%;
+}
+footer #net{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 14px;
+}
+footer #drop{
+    display: block;
+    width: 100%;
+    margin: 0px;
+    font-size: 6px;
+}
+footer #drop nav ul{
+    width: 100%;
+    padding-top: 0px;
+    margin: 0px;
+}
+footer #drop nav ul li{
+    padding-top: 10px;
+    width: 100%;
+
+}
+}
